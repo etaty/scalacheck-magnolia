@@ -33,5 +33,5 @@ println(arbitraryExample.arbitrary.sample.get)
 
 # Links
 
-https://www.scalacheck.org/
-http://magnolia.work/
+* https://www.scalacheck.org/
+* http://magnolia.work/
