@@ -25,7 +25,7 @@ import org.scalacheck._
 
 case class Example(a: String, b: Long)
 
-val arbitraryExample = implicitly[Arbitrary[A]]
+val arbitraryExample = implicitly[Arbitrary[Example]]
 
 println(arbitraryExample.arbitrary.sample.get)
 
