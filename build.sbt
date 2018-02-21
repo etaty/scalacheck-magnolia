@@ -37,7 +37,8 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= {
   Seq(
-    "com.propensive" %% "magnolia" % "0.6.1",
-    "org.scalacheck" %% "scalacheck" % "1.13.4"
+    "com.propensive" %% "magnolia" % "0.7.0",
+    "org.scalacheck" %% "scalacheck" % "1.13.4",
+    "org.scalatest" %% "scalatest" % "3.0.4" % "test"
   )
 }
